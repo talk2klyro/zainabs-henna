@@ -1,0 +1,26 @@
+async function loadTestimonials() {
+  const response = await fetch("assets/data/testimonials.json");
+  const testimonials = await response.json();
+  const container = document.getElementById("testimonials");
+
+  testimonials.forEach(item => {
+    const card = document.createElement("div");
+    card.classList.add("testimonial-card");
+
+    // Apply framing effect: start positive, highlight benefit, close with reassurance
+    card.innerHTML = `
+      <p class="quote">“${item.text}”</p>
+      <div class="author">
+        <img src="assets/img/user-placeholder.jpg" alt="${item.name}">
+        <div>
+          <strong class="name">${item.name}</strong>
+          <span class="context">${item.context}</span>
+        </div>
+      </div>
+    `;
+
+    container.appendChild(card);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", loadTestimonials);
