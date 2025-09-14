@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Fresh Henna Cone",
+    "price": "₦1500",
+    "image": "https://i.postimg.cc/MG2JDq3v/22fdcacbbc1cc20bbd721df384db4e32.jpg",
+    "payment": "https://flutterwave.com/pay/7dvrq9hz4idf"
+  },
+  {
+    "id": 2,
+    "name": "Henna Powder Pack",
+    "price": "₦2500",
+    "image": "https://i.postimg.cc/9Mc361h2/70ac73741390a5b195f4041c330a08f8.jpg",
+    "payment": "https://flutterwave.com/pay/2nmx3028pua2"
+  },
+  {
+    "id": 3,
+    "name": "Henna Stencil Kit",
+    "price": "₦3500",
+    "image": "https://i.postimg.cc/0NYRXFhZ/8b23b79acae6a837740afa89a2e7f133.jpg",
+    "payment": "https://flutterwave.com/pay/zuaa436p8eed"
+  },
+  {
+    "id": 4,
+    "name": "Bridal Henna Deluxe Kit",
+    "price": "₦5000",
+    "image": "https://i.postimg.cc/kG5044Gh/950508e11529ea88ba9c5e0ac0691fe9.jpg",
+    "payment": "https://flutterwave.com/pay/w5fweb1sndw4"
+  }
+]
